@@ -1,4 +1,4 @@
-import sqlite3, pygame, sys, random, ctypes
+import pygame, sys, random, ctypes
 
 pygame.init()                                   # Initial Pygame
 screen = pygame.display.set_mode((576,1024))    # Set Screen
@@ -28,12 +28,6 @@ tick = 120
 
 # ---------------- SQL ----------------
 # Verbindung zum MySQL-Server herstellen
-cnx = mysql.connector.connect(
-    user='flappydb',
-    password='FlappyBirdDB23',
-    host='localhost',
-    database='flappybird'
-)
 # ---------------- END - SQL ----------
 
 
